@@ -56,6 +56,12 @@ short bridges — they print fine). 0.2mm PLA works; same settings as the origin
    pockets, standoffs, screws), add the lid.
 3. Stick it to the inside of the enclosure.
 
+**If your enclosure wall has raised obstructions** (screw joints, weld nubs,
+rivets) that keep the magnets from reaching flat steel: stack a second disc
+onto each installed magnet — they self-align magnetically; add a drop of CA
+between. Each extra disc buys ~2.6mm of standoff, grip on the flat wall stays
+full-strength, and nothing needs reprinting.
+
 Note Konnected's own caveat: a steel enclosure attenuates WiFi — fine if you
 use the Pro's Ethernet, otherwise check signal strength.
 
