@@ -8,7 +8,7 @@ enclosure wall and pulls off by hand. A printed-in-place alternative to
 [Konnected's magnetic standoffs](https://konnected.io/products/magnetic-standoffs)
 that keeps the full protection of an enclosed case.
 
-![bottom](previews/preview_bottom.png)
+![mounted in an alarm panel enclosure](photos/mounted-in-panel.jpg)
 
 ## What changed from the original
 
@@ -22,6 +22,10 @@ that keeps the full protection of an enclosed case.
   this base mounts magnetically only (use the original if you want screws)
 - Lid and board mounting are unchanged: use zefer's lid and his M3
   nut/standoff/screw scheme
+
+![underside with magnets seated](photos/underside-magnets.jpg)
+
+CAD renders of both faces are in [`previews/`](previews/).
 
 ## Bill of materials
 
@@ -75,3 +79,8 @@ the top of each script — different magnets are a two-line change.
 © zefer, CC-BY-SA 4.0. `original/konnected_base_original.step` is a
 format-shifted copy of zefer's base (from his published .f3d), redistributed
 under the same license so the build script is runnable.
+
+Remix designed and scripted by [Claude](https://claude.com) (Claude Fable 5,
+via Claude Code) working with Zack Gomez — geometry analysis, FreeCAD build
+scripts, and the fit-coupon workflow were Claude's; magnets, calipers, printer,
+and judgment were Zack's.
