@@ -8,7 +8,12 @@ enclosure wall and pulls off by hand. A printed-in-place alternative to
 [Konnected's magnetic standoffs](https://konnected.io/products/magnetic-standoffs)
 that keeps the full protection of an enclosed case.
 
-![mounted in an alarm panel enclosure](photos/mounted-in-panel.jpg)
+![wired up in an alarm panel enclosure](photos/wired-with-lid.jpg)
+
+The payoff: every zone wire stays landed while the whole panel lifts off its
+enclosure wall by hand — no screwdriver, no fishing for standoffs.
+
+![pulled off for service, wires still connected](photos/pulled-off-for-service.jpg)
 
 ## What changed from the original
 
@@ -25,7 +30,8 @@ that keeps the full protection of an enclosed case.
 
 ![underside with magnets seated](photos/underside-magnets.jpg)
 
-CAD renders of both faces are in [`previews/`](previews/).
+More photos in [`photos/`](photos/) (bare install, lid-off wiring); CAD renders
+of both faces in [`previews/`](previews/).
 
 ## Bill of materials
 
