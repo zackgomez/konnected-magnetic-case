@@ -2,10 +2,9 @@
 
 Run with FreeCAD (tested on 1.1.x):  freecadcmd build_coupon.py
 
-Four pockets stepping through diameters, dot-marked 1..4 on top (1 = tightest).
-Print pocket-openings-down (dots up) to replicate how pockets print in the base,
-then pick the diameter that gives a snug, fully-seatable press fit and set
-POCKET_D in build_remix.py to match.
+Four pockets stepping through diameters, dot-marked 1..4 (1 = tightest).
+Prints as imported: pockets and dot marks face up. Pick the diameter that gives
+a snug, fully-seatable press fit and set POCKET_D in build_remix.py to match.
 """
 import os
 import Part
@@ -25,7 +24,7 @@ L = PITCH * len(DIAMETERS) + 4
 plate = Part.makeBox(L, W, T, Vector(0, -W / 2, 0))
 for i, dia in enumerate(DIAMETERS):
     x = PITCH / 2 + 2 + i * PITCH
-    plate = plate.cut(Part.makeCylinder(dia / 2, POCKET_DEPTH + 0.5, Vector(x, 0, -0.5)))  # pocket (opens down)
+    plate = plate.cut(Part.makeCylinder(dia / 2, POCKET_DEPTH + 0.5, Vector(x, 0, T - POCKET_DEPTH)))  # pocket (opens up)
     plate = plate.cut(Part.makeCylinder(VENT_D / 2, T + 1, Vector(x, 0, -0.5)))            # vent/eject
     for k in range(i + 1):                                                                 # dot marks on top: 1..4
         plate = plate.cut(Part.makeCylinder(0.6, 0.6, Vector(x - 3 + k * 2, W / 2 - 2.2, T - 0.5)))

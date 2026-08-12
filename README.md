@@ -28,6 +28,8 @@ enclosure wall by hand — no screwdriver, no fishing for standoffs.
 - Lid and board mounting are unchanged: use zefer's lid and his M3
   nut/standoff/screw scheme
 
+![printed base interior: ceiling pads and vent holes](photos/printed-base-interior.jpg)
+
 ![underside with magnets seated](photos/underside-magnets.jpg)
 
 More photos in [`photos/`](photos/) (bare install, lid-off wiring); CAD renders
@@ -43,15 +45,17 @@ of both faces in [`previews/`](previews/).
 ## Printing & fit
 
 The press-fit diameter depends on your printer's hole shrinkage, so
-**print `magnet_fit_coupon.stl` first** (a few minutes): orient it pocket-openings
-down / dot-marks up — the same orientation the pockets print in the base — and
-press a magnet into each pocket. Dots 1–4 mark Ø6.10 / 6.20 / 6.30 / 6.40
-(1 = tightest). Pick the snug-but-fully-seatable one; the vent hole lets you
-poke the magnet out and reuse it. If your winner isn't Ø6.20, set `POCKET_D`
-in `build_remix.py` and regenerate (see below).
+**print `magnet_fit_coupon.stl` first** (a few minutes, as imported — pockets
+and dot marks face up) and press a magnet into each pocket. Dots 1–4 mark
+Ø6.10 / 6.20 / 6.30 / 6.40 (1 = tightest). Pick the snug-but-fully-seatable
+one; the vent hole lets you poke the magnet out and reuse it. If your winner
+isn't Ø6.20, set `POCKET_D` in `build_remix.py` and regenerate (see below).
+
+![fit coupon with a magnet seated](photos/fit-coupon.jpg)
 
 Then print `konnected_base_magnetic.stl` flat, no supports (pocket ceilings are
-short bridges — they print fine). 0.2mm PLA works; same settings as the original.
+short bridges — they print fine). The pictured set is **ASA, 0.4 nozzle,
+0.3mm layers** (~30g for base + lid); PLA at 0.2mm works too, per the original.
 
 ## Assembly
 
@@ -67,6 +71,8 @@ rivets) that keep the magnets from reaching flat steel: stack a second disc
 onto each installed magnet — they self-align magnetically; add a drop of CA
 between. Each extra disc buys ~2.6mm of standoff, grip on the flat wall stays
 full-strength, and nothing needs reprinting.
+
+![stacked magnet pair for extra standoff](photos/stacked-magnets.jpg)
 
 Note Konnected's own caveat: a steel enclosure attenuates WiFi — fine if you
 use the Pro's Ethernet, otherwise check signal strength.
