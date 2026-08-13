@@ -2,16 +2,16 @@
 
 A remix of [zefer's Konnected Alarm Panel Pro Case](https://www.printables.com/model/680613-konnected-alarm-panel-pro-case)
 that mounts magnetically inside a steel alarm panel enclosure — no screws, no
-standoff hardware, no drilling. Six cheap 6×2.6mm neodymium disc magnets
-press-fit and glue into pockets in the case base; the case snaps onto the
+standoff hardware, no drilling. Six cheap 6×3mm neodymium disc magnets
+press-fit into pockets in the case base; the case snaps onto the
 enclosure wall and pulls off by hand. A printed-in-place alternative to
 [Konnected's magnetic standoffs](https://konnected.io/products/magnetic-standoffs)
 that keeps the full protection of an enclosed case.
 
 ![wired up in an alarm panel enclosure](photos/wired-with-lid.jpg)
 
-The payoff: every zone wire stays landed while the whole panel lifts off its
-enclosure wall by hand — no screwdriver, no fishing for standoffs.
+Every zone wire stays landed while the panel lifts off the enclosure wall by
+hand.
 
 ![pulled off for service, wires still connected](photos/pulled-off-for-service.jpg)
 
@@ -37,9 +37,9 @@ of both faces in [`previews/`](previews/).
 
 ## Bill of materials
 
-- 6 × neodymium disc magnets, 6mm Ø × 2.6mm thick (common "6×2" packs often
-  measure ~6.03 × 2.64 — caliper yours). No polarity concerns against steel.
-- CA glue (a drop per pocket)
+- 6 × neodymium disc magnets, 6×3mm (mine calipered 6.03 × 2.64 — caliper
+  yours). No polarity concerns against steel.
+- CA glue (optional, see Assembly)
 - Board mounting, per the original: 4 × M3 nuts, standoffs (e.g. M3×6+6), screws
 
 ## Printing & fit
@@ -59,9 +59,9 @@ short bridges — they print fine). The pictured set is **ASA, 0.4 nozzle,
 
 ## Assembly
 
-1. Drop of CA in each pocket, press the six magnets in until seated.
-   Don't skip the glue — it's what resists pull-off when you remove the case
-   from the enclosure wall.
+1. Press the six magnets in until seated. CA is optional — press fit alone
+   holds mine; add a drop per pocket if magnets stay on the wall when you
+   pull the case off.
 2. Mount the board per the original case's instructions (M3 nuts in the corner
    pockets, standoffs, screws), add the lid.
 3. Stick it to the inside of the enclosure.
@@ -73,9 +73,6 @@ between. Each extra disc buys ~2.6mm of standoff, grip on the flat wall stays
 full-strength, and nothing needs reprinting.
 
 ![stacked magnet pair for extra standoff](photos/stacked-magnets.jpg)
-
-Note Konnected's own caveat: a steel enclosure attenuates WiFi — fine if you
-use the Pro's Ethernet, otherwise check signal strength.
 
 ## Regenerating the models
 

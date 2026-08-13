@@ -18,76 +18,60 @@ Tags: `konnected`, `alarm`, `alarm-panel`, `home-assistant`, `case`,
 
 ## Summary (120-char limit)
 
-Six press-fit magnets snap this case into a steel alarm box — no screws, no
-drilling, pulls off by hand for service.
+Remixed Konnected Alarm Panel Pro case replacing screw mounting with six
+press-fit 6×3 mm magnets.
 
 ## Description
 
 A remix of zefer's Konnected Alarm Panel Pro Case that mounts magnetically
-inside a steel alarm panel enclosure — no screws, no standoff hardware, no
-drilling. Six cheap 6×2.6 mm neodymium disc magnets press-fit and glue into
-pockets in the base; the case snaps onto the enclosure wall and pulls off by
-hand. A printed-in-place alternative to Konnected's own magnetic standoffs
-that keeps the full protection of an enclosed case.
+inside a steel alarm enclosure: six 6×3 mm neodymium discs press-fit into
+pockets in the base — no screws, no drilling. Assemble the board into the
+case on the bench, snap it onto the enclosure wall, pull it off by hand for
+service with every zone wire still landed.
 
-The payoff: every zone wire stays landed while the whole panel lifts off its
-enclosure wall by hand — no screwdriver, no fishing for standoffs. Assemble
-the board into the case on the bench, then snap it in.
+**Changes from the original:**
 
-**What changed from the original:**
+- Six magnet pockets (Ø6.20 × 2.45 mm) in the base underside; magnets sit
+  ~0.2 mm proud, so the case stands on the magnet faces
+- Each pocket: low ceiling pad inside, Ø2.5 mm vent hole (air escape on
+  insertion, eject port for removal)
+- Woodscrew wall-mount holes and their bosses removed — use the original if
+  you want screws
+- Lid and board mounting unchanged; print the lid from the original model
 
-- Six magnet pockets in the underside of the base floor (Ø6.20 × 2.45 mm) —
-  the magnets sit ~0.2 mm proud, so the case stands on the magnet faces
-- Each pocket has a low ceiling pad inside the case and a Ø2.5 mm vent hole:
-  air/glue escape during insertion, and an eject port if you ever need to
-  poke a magnet back out
-- The two woodscrew wall-mount holes and their interior bosses are removed —
-  this base mounts magnetically only (use the original if you want screws)
-- Lid and board mounting are unchanged: print zefer's lid from the original
-  model and use his M3 nut/standoff/screw scheme
+**Fit coupon included.** Press fit depends on your printer, so print
+`magnet_fit_coupon.stl` first: four pockets at Ø6.10–6.40, dot-marked 1–4
+(1 = tightest). Pick the snug-but-seatable one. Ø6.20 is the shipped STL;
+other diameters are a one-line change in the FreeCAD script.
 
-**Fit coupon included.** Press-fit depends on your printer's hole shrinkage,
-so print `magnet_fit_coupon.stl` first (a few minutes): four pockets at
-Ø6.10 / 6.20 / 6.30 / 6.40, dot-marked 1–4 (1 = tightest). Press a magnet
-into each and pick the snug-but-fully-seatable one — the vent hole lets you
-poke it back out and reuse it. Ø6.20 is the shipped STL; other diameters are
-a one-line change in the FreeCAD script and a regenerate.
+**Raised features on the enclosure wall** (screw joints, rivets) keeping the
+magnets off flat steel? Stack a second disc on each magnet — self-aligning,
+~2.6 mm more standoff per disc, full grip. The pictured install clears its
+screw joints this way.
 
-**If your enclosure wall has raised obstructions** (screw joints, weld nubs,
-rivets) that keep the magnets from reaching flat steel: stack a second disc
-onto each installed magnet — they self-align magnetically, add a drop of CA
-between. Each extra disc buys ~2.6 mm of standoff and grip stays
-full-strength. That's how the pictured install clears its enclosure's raised
-screw joints.
-
-STEP files, the parametric FreeCAD build scripts, and full design notes:
+STEP files, parametric FreeCAD build scripts, and design notes:
 https://github.com/zackgomez/konnected-magnetic-case
 
-Remix designed and scripted by Claude (Fable 5, via Claude Code) working
-with me — geometry analysis, FreeCAD build scripts, and the fit-coupon
-workflow were Claude's; magnets, calipers, printer, and judgment were mine.
-
-*Note Konnected's own caveat: a steel enclosure attenuates WiFi — fine if
-you use the Pro's Ethernet, otherwise check signal strength.*
+Designed and scripted in collaboration with Claude (Fable 5, via Claude
+Code) — geometry analysis, build scripts, and the coupon workflow were
+Claude's.
 
 ## Print settings
 
-- Both parts print flat as exported, no supports (the pocket ceilings are
-  short bridges — they print fine)
-- As printed (the units in the photos): ASA, 0.4 mm nozzle, 0.3 mm layers,
-  ~30 g for base + lid. PLA at 0.2 mm works too, per the original
+- Both parts print flat as exported, no supports (pocket ceilings are short
+  bridges)
+- As pictured: ASA, 0.4 mm nozzle, 0.3 mm layers, ~30 g for base + lid.
+  PLA at 0.2 mm works too, per the original
 - Coupon prints as imported: pockets and dot marks face up
 
 ## Assembly / hardware
 
-- 6× neodymium disc magnets, 6 mm Ø × 2.6 mm thick (common "6×2" packs often
-  measure ~6.03 × 2.64 — caliper yours). No polarity concerns against steel
-- CA glue, a drop per pocket — the glue is what resists pull-off when you
-  remove the case from the wall; don't skip it
+- 6× neodymium disc magnets, 6×3 mm (mine calipered 6.03 × 2.64; no polarity
+  concerns against steel)
+- CA glue optional — press fit alone holds mine; add a drop per pocket if
+  magnets stay on the wall when you pull the case off
 - Board mounting per the original: 4× M3 nuts, standoffs (e.g. M3 6+6),
   M3 screws; lid screws M3×6
-- Press magnets in until seated, mount the board on the bench, snap the case
-  into the enclosure
 
 ## Files to upload
 
