@@ -1,5 +1,7 @@
 # Konnected Alarm Panel Pro Case — Magnetic Mount Remix
 
+**On Printables:** https://www.printables.com/model/1809216-konnected-alarm-panel-pro-case-magnetic-mount-pres
+
 A remix of [zefer's Konnected Alarm Panel Pro Case](https://www.printables.com/model/680613-konnected-alarm-panel-pro-case)
 that mounts magnetically inside a steel alarm panel enclosure — no screws, no
 standoff hardware, no drilling. Six cheap 6×3mm neodymium disc magnets
