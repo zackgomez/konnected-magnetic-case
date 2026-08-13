@@ -25,9 +25,7 @@ press-fit 6×3 mm magnets.
 
 A remix of zefer's Konnected Alarm Panel Pro Case that mounts magnetically
 inside a steel alarm enclosure: six 6×3 mm neodymium discs press-fit into
-pockets in the base — no screws, no drilling. Assemble the board into the
-case on the bench, snap it onto the enclosure wall, pull it off by hand for
-service with every zone wire still landed.
+pockets in the base.
 
 **Changes from the original:**
 
@@ -37,7 +35,7 @@ service with every zone wire still landed.
   insertion, eject port for removal)
 - Woodscrew wall-mount holes and their bosses removed — use the original if
   you want screws
-- Lid and board mounting unchanged; print the lid from the original model
+- Lid (included verbatim) and board mounting unchanged
 
 **Fit coupon included.** Press fit depends on your printer, so print
 `magnet_fit_coupon.stl` first: four pockets at Ø6.10–6.40, dot-marked 1–4
@@ -77,13 +75,12 @@ Claude's.
 
 STLs:
 - `konnected_base_magnetic.stl` — the remixed base
+- `konnected_lid.stl` — zefer's lid, unchanged
 - `magnet_fit_coupon.stl` — fit-test coupon (print first)
 
 STEPs (upload as "other files" for remixers):
 - `konnected_base_magnetic.step`
 - `magnet_fit_coupon.step`
-
-(Lid: unchanged — printed from zefer's original model page.)
 
 Photos (from `photos/`):
 - `pulled-off-for-service.jpg` — **cover image** (wired panel held mid-air:

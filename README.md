@@ -25,8 +25,8 @@ hand.
   need to poke a magnet back out
 - The two woodscrew wall-mount holes and their interior bosses are removed —
   this base mounts magnetically only (use the original if you want screws)
-- Lid and board mounting are unchanged: use zefer's lid and his M3
-  nut/standoff/screw scheme
+- Lid and board mounting are unchanged: zefer's lid is included verbatim
+  (`konnected_lid.stl`), board mounts with his M3 nut/standoff/screw scheme
 
 ![printed base interior: ceiling pads and vent holes](photos/printed-base-interior.jpg)
 
@@ -91,9 +91,10 @@ the top of each script — different magnets are a two-line change.
 
 [CC-BY-SA 4.0](LICENSE), as a derivative of
 [Konnected Alarm Panel Pro Case](https://www.printables.com/model/680613-konnected-alarm-panel-pro-case)
-© zefer, CC-BY-SA 4.0. `original/konnected_base_original.step` is a
-format-shifted copy of zefer's base (from his published .f3d), redistributed
-under the same license so the build script is runnable.
+© zefer, CC-BY-SA 4.0. `konnected_lid.stl` is zefer's lid, unchanged; the
+`original/` STEPs are format-shifted copies of his base and lid (from his
+published .f3d) — all redistributed under the same license so the project
+is self-contained and the build script is runnable.
 
 Remix designed and scripted by [Claude](https://claude.com) (Claude Fable 5,
 via Claude Code) working with Zack Gomez — geometry analysis, FreeCAD build
