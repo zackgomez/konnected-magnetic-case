@@ -33,7 +33,8 @@ plate = plate.removeSplitter()
 assert plate.isValid() and len(plate.Solids) == 1
 print("coupon valid:", plate.isValid())
 
+plate.exportStep(os.path.join(HERE, "magnet_fit_coupon.step"))
 import MeshPart
 mesh = MeshPart.meshFromShape(Shape=plate, LinearDeflection=0.03, AngularDeflection=0.25, Relative=False)
 mesh.write(os.path.join(HERE, "magnet_fit_coupon.stl"))
-print("wrote magnet_fit_coupon.stl,", mesh.CountFacets, "facets")
+print("wrote step+stl,", mesh.CountFacets, "facets")

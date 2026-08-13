@@ -79,6 +79,10 @@ STLs:
 - `konnected_base_magnetic.stl` — the remixed base
 - `magnet_fit_coupon.stl` — fit-test coupon (print first)
 
+STEPs (upload as "other files" for remixers):
+- `konnected_base_magnetic.step`
+- `magnet_fit_coupon.step`
+
 (Lid: unchanged — printed from zefer's original model page.)
 
 Photos (from `photos/`):
